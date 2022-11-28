@@ -24,17 +24,58 @@ body {
 }
 
 main {
+    display: flex;
     background-color: var(--corneutra3);
-    max-width: 600px;
-    height: 600px;
+    width: 650px;
+    height: 450px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 img {   
-    width: 400px;
-    background-color: black;
-}
-#descricao {
-    display: inline-block;
     width: 300px;
-    height: 600px;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 30px;
+}
 
+h1 {
+    font-family: var(--font2);
+    font-weight: bolder;
+    width: 230px;
+}
+p {
+    font-family: var(--font1);
+    color: var(--corneutra2);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 270px;
+}
+h2 {
+    color: var(--corprimaria1);
+    font-family: var(--font2);
+    font-size: 2.3em;
+    display: inline;
+}
+p.preco {
+    display: inline;
+    margin: 15px;
+}
+h3 {
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+    background-color: var(--corprimaria1);
+    color: var(--corneutra3);
+    width: 250px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
 }
